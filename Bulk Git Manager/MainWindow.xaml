@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Bulk_Git_Manager"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+	<StackPanel>
+		<DataGrid Name="OutputDataGrid" />
+	</StackPanel>
 </Window>

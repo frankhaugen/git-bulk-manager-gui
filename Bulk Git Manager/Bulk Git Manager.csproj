@@ -35,6 +35,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CloudrailSI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GitHub.Api.1.0.7\lib\CloudrailSI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSSL.PrivateKeyDecoder, Version=1.2.0.0, Culture=neutral, PublicKeyToken=78f5ba1b024431f9, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenSSL.PrivateKeyDecoder.1.2.0\lib\net45\OpenSSL.PrivateKeyDecoder.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSSL.X509Certificate2.Provider, Version=1.2.0.0, Culture=neutral, PublicKeyToken=78f5ba1b024431f9, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenSSL.X509Certificate2.Provider.1.2.0\lib\net45\OpenSSL.X509Certificate2.Provider.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -86,6 +98,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
